@@ -1,0 +1,108 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_batchId",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_expiryDate",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_manufactureDate",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_greenfieldUrl",
+				"type": "string"
+			}
+		],
+		"name": "addMedicine",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_batchId",
+				"type": "string"
+			}
+		],
+		"name": "getMedicine",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"name": "medicines",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "batchId",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "expiryDate",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "manufactureDate",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "greenfieldUrl",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "addedBy",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
