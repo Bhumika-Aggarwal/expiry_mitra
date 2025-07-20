@@ -1,7 +1,8 @@
 {
   "name": "medchecker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
+  "description": "Expiry Mitra – AI + Blockchain-based medicine expiry and authenticity checker",
   "dependencies": {
     "@bnb-chain/greenfield-cosmos-types": "^0.4.0",
     "@bnb-chain/greenfield-js-sdk": "^2.2.2",
