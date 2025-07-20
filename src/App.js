@@ -88,7 +88,7 @@ function App() {
       </div>
 
       <footer className="footer">
-        🚀 Built by <strong>Team FireFlies</strong> for BNB AI Hackathon
+        🚀 Built by <strong>Team FireFlies</strong>
       </footer>
     </div>
   );
