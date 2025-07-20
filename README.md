@@ -1,6 +1,6 @@
 # Expiry Mitra
 
-This app helps users verify the **expiry date** and **authenticity** of medicines using AI and Blockchain (BNB Smart Chain)
+This app helps users verify the **expiry date** and **authenticity** of medicines using AI and Blockchain.
 
 ## Features
 
@@ -12,13 +12,13 @@ This app helps users verify the **expiry date** and **authenticity** of medicine
 ## Tech Stack
 
 - **Frontend**: React
-- **Blockchain**: Solidity on BNB Smart Chain Testnet
+- **Blockchain**: Solidity on op BNB
 - **AI/OCR**: Tesseract.js
 - **Wallet**: MetaMask
 
 ## Smart Contract
 
-```solidity
+solidity
 struct Medicine {
     string batchId;
     string expiryDate;
